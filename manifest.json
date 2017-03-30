@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "show-pass"
+  ,"description": "This extension will add a 'show password' button on any page with a password field"
+  ,"version": "1.0"
+  ,"permissions": [
+    "activeTab"
+  ]
+  ,"content_scripts":[
+    {
+        "matches": ["http://*/*","https://*/*"]
+        ,"css": ["style.css"]
+        ,"js": ["main.js"]
+    }
+  ]
+}
