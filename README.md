@@ -1,2 +1,2 @@
 # show-pass
-Web extension to display 'show password' button on all password fields
+Web extension to allow user to easily view a password field value in plain text!
