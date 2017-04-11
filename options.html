@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>bestbefore options page</title>
-        <style>
-            #status{
-                padding: 0.5rem;
-                margin: 0.5rem;
-                display: hidden;
-            }
-        </style>
-    </head>
-    <body>
-        <form>
-            <label>Require keypress: </label>
-            <input type="checkbox" id="isReqKeypress" value="checked"></input>
-            <input type="text" id="pressKeys"></input>
-            <button id="save" type="submit">Submit</button>
-        </form>
-        <script src="options.js"></script>
-        <div id="status"></div>
-    </body>
+
+<head>
+    <title>bestbefore options page</title>
+    <style>
+        #status {
+            padding: 0.5rem;
+            margin: 0.5rem;
+            display: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label>Require keypress (ctrl + ...): </label>
+        <input type="checkbox" id="isReqKeypress" value="checked"></input>
+        <input type="text" id="pressKeys" maxlength="1"></input>
+        <button id="save" type="submit">Submit</button>
+    </form>
+    <script src="options.js"></script>
+    <div id="status"></div>
+</body>
+
 </html>
