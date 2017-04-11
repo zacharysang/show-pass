@@ -1,3 +1,0 @@
-#show_pass_show_button:active ~ input[type="password"] {
-  background-color: yellow;
-}

@@ -1,4 +1,4 @@
-var passFields = document.getElementsBySelector'input[type="password"]');
+var passFields = document.querySelectorAll('input[type="password"]');
 
 passFields.forEach(addListeners);
 
